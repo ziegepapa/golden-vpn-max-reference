@@ -1,0 +1,15 @@
+[Unit]
+Description=Golden VPN Telegram Agent
+After=network-online.target wg-golden.service
+Wants=network-online.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/wg-golden
+EnvironmentFile=/etc/wg-golden.env
+ExecStart=/usr/bin/python3 /opt/wg-golden/telegram_agent.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

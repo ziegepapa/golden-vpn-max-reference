@@ -1,0 +1,6 @@
+[Interface]
+Address = <VPN_SERVER_IP>/24
+ListenPort = 51820
+PrivateKey = CHANGE_ME_SERVER_PRIVATE_KEY
+
+# Example only. Do not publish real keys.
