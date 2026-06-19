@@ -461,7 +461,6 @@ Immediate steps:
 
 Search:
 
-grep -RInE 'PRIVATE|TOKEN|SECRET|BEGIN .*PRIVATE' . --exclude-dir=.git
 
 Port checks
 
