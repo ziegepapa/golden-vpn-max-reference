@@ -48,8 +48,13 @@ This is not a managed service and not a guaranteed production installer.
 
 Review the scripts before running them. You are responsible for server security, firewall rules, WireGuard keys, client configs, backups, and restore testing.
 
-See:
+## Documentation
 
-- `SECURITY.md`
-- `DISCLAIMER.md`
-- `INSTALL.md`
+Start here:
+
+- `INSTALL.md` — detailed installation guide
+- `FULL_MODE.md` — Full Mode details: Pi-hole, Unbound, backup scaffold
+- `OPERATIONS.md` — daily operations and maintenance
+- `TROUBLESHOOTING.md` — common errors and fixes
+- `SECURITY.md` — security notes
+- `DISCLAIMER.md` — disclaimer
