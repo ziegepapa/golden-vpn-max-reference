@@ -1,5 +1,5 @@
 # Golden VPN Max — Reference Build
-
+![Golden VPN Max preview](IMG_8163.jpeg)
 Personal reference build for a self-hosted VPN stack:
 
 - WireGuard VPN
